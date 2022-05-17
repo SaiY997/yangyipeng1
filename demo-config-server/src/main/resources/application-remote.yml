@@ -1,0 +1,14 @@
+server:
+  port: 9005
+
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      server:
+        get:
+          uri: https://github.com/SaiY997/yangyipeng1.git
+          search-paths: /demo-config-server/src/main/resources/
+          username: 1450182001@qq.com
+          password: gunba5210
